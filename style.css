@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #4f77e4;
+    
+}
+
+/* GÖR KNAPPARNA HORISONTELLA */
+.navbar-links {
+    list-style: none; /* Tar bort punktlistans prickar */
+    display: flex;    /* Lägger li-elementen på en rad */
+    gap: 20px;        /* Skapar ett mellanrum mellan knapparna */
+}
+
+/* Gör logotypen och länkarna vita och snygga */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+/* Valfri effekt när man håller musen över knapparna */
+.navbar-links a:hover {
+    color: #ff9900; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}
+
+.kontakt {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}
+
+.fast-knapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        
+        background: linear-gradient(135deg, #8a2be2, #4a00e0, #00d2ff);
+        background-size: 200% 200%; /* Gör det möjligt att animera gradienten */
+        
+        color: white;
+        font-family: 'Segoe UI', Roboto, sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        padding: 14px 22px;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        
+        box-shadow: 0 4px 15px rgba(138, 43, 226, 0.4), 
+                    0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+section div {
+    display: flex;
+    justify-content: center;
+}
+
+section div a {
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    border: 1px solid #ddd;
+}

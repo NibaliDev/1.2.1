@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar">
+        <div class="navbar-logo">
+            <a href="#">Nils Röjare</a>
+        </div>
+        <ul class="navbar-links">
+            <li><a href="#" class="active">Hem</a></li>
+            <li><a href="#om-oss">Om oss</a></li>
+            <li><a href="#kontakt">Kontakt</a></li> 
+        </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Välkommen</h1>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla magnam cum, sequi at sunt alias quos perspiciatis similique fugiat illum quidem necessitatibus soluta, harum quod maxime animi dolore velit deleniti.
+    </main>
+
+    <section>
+        <table>
+            <caption>
+                <h2>Månadsrapport för försäljning</h2>
+            </caption>
+            <thead>
+                <tr>
+                    <th>Månad</th>
+                    <th>Produkt</th>
+                    <th>Antal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Januari</td>
+                    <td>Dator</td>
+                    <td>45</td>
+                </tr>
+                <tr>
+                    <td>Februari</td>
+                    <td>Skärm</td>
+                    <td>32</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr/>
+
+    <section id="om-oss">
+        <h2>Om oss</h2>
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.
+        </p>
+        <div>
+            <a class="link-btn" href="/documents/CV.pdf">Se mitt CV</a>
+        </div>
+    </section>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiKHoJCq70J1VQRZcsnfZJ4w7Q2YDozYKHLmKcGc_v9Q&s=10" alt="Bild" />
+    
+    <button id="scroll-till-topp-knapp" class="fast-knapp">✨ AI</button>
+
+    <form class="kontakt" id="kontakt">
+        <h2>Kontakt</h2>
+        <label>Namn
+            <input type="text" name="name" id="name" placeholder="Namn" required>
+        </label>
+
+        <label>Ämne
+            <input type="text" name="amne" id="amne" placeholder="Ämne" required>
+        </label>
+
+        <textarea name="big_text" id="big_text" rows="10" placeholder="Skriv något!"></textarea>
+
+        <input type="submit" value="Skicka">
+    
+    </form>
+</body>
+</html>
